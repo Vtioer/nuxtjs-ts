@@ -27,22 +27,5 @@ export default class Default extends Vue {}
 </script>
 
 <style lang="scss" scoped>
-.layouts-container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  .header-wrapper {
-    height: 80px;
-  }
-  .header-wrapper,
-  .footer-wrapper {
-    flex: none;
-  }
-  .main {
-    flex: auto;
-    overflow: auto;
-  }
-}
+
 </style>
